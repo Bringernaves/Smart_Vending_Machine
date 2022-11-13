@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/myDataSource" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		maxActive="10"
+		minIdle="2"
+		maxIdle="6"
+		maxWait="1000"
+		username="root"
+		password="password"
+		url="jdbc:mysql://localhost:3306/tripiciano"
+		testOnBorrow="true"
+		validationQuery="SELECT 1" />
+</Context>
