@@ -14,9 +14,9 @@ Configurazione :
 
 	Testing :
 
-		1. Importare il progetto "Tripiciano.war" in Eclipse IDE
+		1. Importare il progetto "project.war" in Eclipse IDE
 		
-		2. Importare il database "Tripiciano.sql" in mySQL
+		2. Importare il database "db.sql" in mySQL
 
 		3. Modificare il file "context.xml" inserendo in Context nella Resource 
 		   con name = "jdbc/myDataSource" username e password del proprio server mySQL
